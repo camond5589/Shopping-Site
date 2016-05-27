@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>Kris' Soccer Store</title>
+<link rel="icon" href="img/favicon.png">
+<!-- styles -->
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/grid_34.css">
+<link rel="stylesheet" href="css/grid_6.css">
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/cart.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<header>
+    <!-- begin cart link widget -->
+<div id="cart_links">
+    <a href="cart.html"><img class="cart_icon" src="img/cart_icon.png" alt="cart icon" /></a>
+    <span class="cart_link"><a id="cart_link" href="#">Shopping Cart</a></span> <br />
+    <span class="item_count">Items (<span id="item_count">0</span>)</span>
+    <span class="checkout_link"><a id="checkout_link" href="#">Checkout</a></span>
+</div>
+<!-- end widget -->
+   <body onload="loadCart()"> 
+
+
+
+
+<div class="header">
+    <div class="row">
+        <div class="full">
+            <img class="logo" src="img/logo1.png" alt="Logo">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="full">
+       <nav class="navbar center">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="footwear.html">Footwear</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+        <li><a href="apparel.html">Apparel</a></li>
+        </ul>
+    </nav>
+        </div>
+    </div>
+</div>
+</header>
+
+<body>
+
+<div class="container">
+<h1>Equipment</a></h1>
+
+
+
+<h2>Our Products</h2>
+<div class="row">
+        <div class="one-third">
+<h3>Balls - $25.00</h3>
+<img class="procuct" src="img/ball.jpg" alt="Soccer Ball">
+<select onchange="setChoice(this, '111')">
+  <option value="">Select a color...</option>
+  <option value="111-red">Red</option>
+  <option value="111-green">Green</option>
+  <option value="111-blue">Blue</option>
+</select>
+<input id="111" type="button" value="Add to Cart" disabled>
+        </div>
+        <div class="one-third">
+<h3>Ball Pumps - $9.95</h3>
+<img class="procuct" src="img/pump.jpg" alt="Ball Pump">
+<select onchange="setChoice(this, '222')">
+  <option value="">Select a color...</option>
+  <option value="222-red">Red</option>
+  <option value="222-green">Green</option>
+  <option value="222-blue">Blue</option>
+</select>
+<input id="222" type="button" value="Add to Cart" disabled>
+        </div>
+        <div class="one-third">
+<h3>Agility Cones Set- $20.00</h3>
+<img class="procuct" src="img/cones.jpg" alt="Agility Cones">
+<select onchange="setChoice(this, '333')">
+  <option value="">Select a color...</option>
+  <option value="333-red">Red</option>
+  <option value="333-green">Green</option>
+  <option value="333-blue">Blue</option>
+</select>
+<input id="333" type="button" value="Add to Cart" disabled>
+        </div>
+</div>
+<div class="row">
+             <div class="one-third">
+<h3>Shin Guards - $13.00</h3>
+<img class="procuct" src="img/guards.jpg" alt="Shin Guards">
+<select onchange="setChoice(this, '444')">
+  <option value="">Select a color...</option>
+  <option value="444-red">Red</option>
+  <option value="444-green">Green</option>
+  <option value="444-blue">Blue</option>
+</select>
+<input id="444" type="button" value="Add to Cart" disabled>
+             </div>
+              <div class="one-third">
+<h3>Water Bottle - $15.00</h3>
+<img class="procuct" src="img/bottle.jpg" alt="Water Bottles">
+<input type="button" onclick="addToCart('555')" value="Add to Cart" >
+</div>
+              <div class="one-third">
+<h3>Pinnies - $30.00</h3>
+<img class="procuct" src="img/pinnies.jpg" alt="Pinnies">
+<select onchange="setChoice(this, '777')">
+  <option value="">Select a color...</option>
+  <option value="777-red">Red</option>
+  <option value="777-green">Green</option>
+  <option value="777-blue">Blue</option>
+</select>
+<input id="777" type="button" value="Add to Cart" disabled>
+</div>
+        </div>
+</div>
+        <footer>
+        <div class="row">
+            <div class="one-half">
+                Copyright
+            </div>
+            <div class="one-half">
+                By Chris Amond
+            </div>
+        </div>
+
+</footer>
+<script src="js/cart.js"></script>
+<script src="js/cart.js"></script>
+
+</body>
+</html>

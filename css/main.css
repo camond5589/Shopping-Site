@@ -1,0 +1,133 @@
+body {
+background-color: #29a6de;
+border: none;
+}
+header{
+	background-color:#212d60;
+}
+h1 {
+font-family: 'Orbitron', sans-serif;
+font-size: 40px;
+
+margin: 15px;
+padding-top: 15px;
+}
+
+h2 {
+
+margin: 15px;
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+margin: 15px;
+text-
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+ list-style: none;
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+img  {
+	margin-right: auto;
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+}
+
+img.logo  {
+	margin-right: auto;
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+
+}
+
+
+img.procuct {
+width: 200px;
+length: 200px;
+float: left;
+}
+
+a:link {
+color: #ffffff;
+}
+
+a:visited {
+color: #cccccc;
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+footer {
+background-color: #555555;
+    margin: 0, auto;
+text-align: center;
+
+}
+br {
+	}
+
+.container {
+	background-color: #ffffff;
+	max-width: 100%;
+}
+
+.cart_links {
+	
+	padding: 15px;
+}
+.s{
+text-align: center;
+}
